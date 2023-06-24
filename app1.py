@@ -26,7 +26,7 @@ with col2:
 #     clf = joblib.load('rf_model.sav')
 #     return clf.predict(data)
 
-if st.button('Predict type of Iris'):
+# if st.button('Predict type of Iris'):
     # result = predict(np.array([[sepal_l, sepal_w, petal_l, petal_w]]))
     # st.text(result[0])
 
