@@ -20,15 +20,15 @@ with col2:
 
 # with open("prediction.py") as f:
 #     exec(f.read())
-!pip install joblib
-import joblib
-def predict(data):
-    clf = joblib.load('rf_model.sav')
-    return clf.predict(data)
+
+# import joblib
+# def predict(data):
+#     clf = joblib.load('rf_model.sav')
+#     return clf.predict(data)
 
 if st.button('Predict type of Iris'):
-    result = predict(np.array([[sepal_l, sepal_w, petal_l, petal_w]]))
-    st.text(result[0])
+    # result = predict(np.array([[sepal_l, sepal_w, petal_l, petal_w]]))
+    # st.text(result[0])
 
 
 
