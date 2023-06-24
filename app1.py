@@ -20,7 +20,7 @@ with col2:
 
 # with open("prediction.py") as f:
 #     exec(f.read())
-
+pip install joblib
 import joblib
 def predict(data):
     clf = joblib.load('rf_model.sav')
